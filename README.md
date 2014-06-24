@@ -5,6 +5,11 @@ Some useful functions for working with [git-flow](https://github.com/nvie/gitflo
 
 with a heavy debt to https://coderwall.com/p/bt93ia and especially https://github.com/sorin-ionescu/prezto/tree/master/modules/git
 
+# Install prereqs:
+
+1. Install **git-flow**: https://github.com/nvie/gitflow
+2. Install **git-flow-completion**: https://github.com/bobthecow/git-flow-completion
+
 # To Install
 
 1. clone this repo into `~/.git-functions/`
