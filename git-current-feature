@@ -1,6 +1,9 @@
 #
 # Displays the current Git-Flow feature branch.
 #
+# Authors:
+#   Ned Schwartz <ned@theinterned.net>
+#   https://github.com/theinterned/.git-functions
 ref="$(git current-branch)"
 
 if [[ -n "$ref" ]]; then

@@ -1,4 +1,14 @@
-
+#
+# Meta command to `git-flow finish` a feature and cleanup the its published
+# remote branch in one step.
+#
+# Auto-fills <feature-name> if run from within a feature branch. (feature-name
+# can optionally be passed in).
+#
+# Authors:
+#   Ned Schwartz <ned@theinterned.net>
+#   https://github.com/theinterned/.git-functions
+#
 FEATURE=${1:-$(git current-feature)}   # Defaults to current feature
 BRANCH=feature/$FEATURE
 

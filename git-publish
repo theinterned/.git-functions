@@ -1,4 +1,13 @@
-
+#
+# Shortcut to $git flow feature publish <feature-name>
+#
+# Auto-fills <feature-name> if run from within a feature branch. (feature-name
+# can optionally be passed in).
+#
+# Authors:
+#   Ned Schwartz <ned@theinterned.net>
+#   https://github.com/theinterned/.git-functions
+#
 BRANCH=${1:-$(git current-feature)}   # Defaults to current feature
 
 git flow feature publish $BRANCH

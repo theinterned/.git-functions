@@ -1,1 +1,8 @@
- git flow feature start $1
+#
+# Shortcut to $git flow feature start <feature-name>
+#
+# Authors:
+#   Ned Schwartz <ned@theinterned.net>
+#   https://github.com/theinterned/.git-functions
+#
+git flow feature start $1
