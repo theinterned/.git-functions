@@ -1,0 +1,8 @@
+#
+# Displays the current Git-Flow feature branch.
+#
+ref="$(git current-branch)"
+
+if [[ -n "$ref" ]]; then
+  echo "${ref#feature/}"
+fi

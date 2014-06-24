@@ -1,0 +1,4 @@
+
+BRANCH=${1:-$(git current-feature)}   # Defaults to current feature
+
+git flow feature publish $BRANCH
