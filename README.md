@@ -1,7 +1,7 @@
 .git-functions
 ==============
 
-Some useful functions for working with gitflow and capistrano
+Some useful functions for working with [git-flow](https://github.com/nvie/gitflow) and [capistrano](https://github.com/capistrano/capistrano)
 
 with a heavy debt to https://coderwall.com/p/bt93ia and especially https://github.com/sorin-ionescu/prezto/tree/master/modules/git
 
