@@ -16,6 +16,6 @@ with a heavy debt to https://coderwall.com/p/bt93ia and especially https://githu
 2. `$ chmod -R u+x ~/.git-functions/`
 3. make sure `~/.git-functions/` is in your $PATH. In [`.bashrc, .profile` or `.bash_profile` or what have you]:
 ```bash
-export PATH=/Users/username/.git-functions:$PATH
+export PATH=$PATH:$HOME/.git-functions
 ```
 4. you should be good to go
