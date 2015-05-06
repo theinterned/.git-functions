@@ -1,0 +1,19 @@
+#
+# Simultaneously delete a branch from local and remote and switch to develop branch
+# This is the super-nuke version that uses `git branch -D` to force delete even
+# un-merged branches.
+#
+# Auto-fills <branch-name> if unless one is passed in
+#
+# Authors:
+#   Ned Schwartz <ned@theinterned.net>
+#   https://github.com/theinterned/.git-functions
+#
+
+BRANCH=${1:-$(git current-branch)}   # Defaults to current feature
+
+git co develop
+echo "git push origin :$BRANCH"
+git push origin :$BRANCH
+echo "git branch -D $BRANCH"
+git branch -D $BRANCH
