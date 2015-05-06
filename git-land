@@ -13,5 +13,5 @@ FEATURE=${1:-$(git current-feature)}   # Defaults to current feature
 BRANCH=feature/$FEATURE
 
 git finish $FEATURE # calling our custom finish
-echo "git push origin :$BRANCH"
+echo "> git push origin :$BRANCH"
 git push origin :$BRANCH

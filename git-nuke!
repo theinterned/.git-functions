@@ -13,7 +13,7 @@
 BRANCH=${1:-$(git current-branch)}   # Defaults to current feature
 
 git co develop
-echo "git push origin :$BRANCH"
+echo "> git push origin :$BRANCH"
 git push origin :$BRANCH
-echo "git branch -D $BRANCH"
+echo "> git branch -D $BRANCH"
 git branch -D $BRANCH
